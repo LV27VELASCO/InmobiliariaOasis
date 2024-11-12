@@ -1,0 +1,47 @@
+<section class="grid sm:grid-cols-2 px-3 ">
+    <div class="p-3">
+        <h4 class="font-medium">Resultado de: <span class="text-green-700">Bogotá</span></h4>
+        <p class="text-gray-500">20 propiedades encontradas</p>
+    </div>
+
+    <div class="flex flex-col gap-2">
+        <div class="px-7 py-3">
+            <div class="relative mb-6">
+                <label for="labels-range-input" class="sr-only">Labels range</label>
+                <input id="labels-range-input" type="range" value="1000" min="100" max="1500"
+                    class="range-thumb-green w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer">
+                <span class="text-sm text-gray-500 absolute start-0 -bottom-6">Min ($1.000.000)</span>
+                <span class="text-sm text-gray-500 absolute end-0 -bottom-6">Max ($5.000.000)</span>
+            </div>
+        </div>
+        <div>
+            <ul
+                class="items-center text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg flex ">
+                <li class="w-full">
+                    <div class="flex items-center ps-3">
+                        <input id="vue-checkbox-list" type="checkbox" value=""
+                            class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500" />
+                        <label for="vue-checkbox-list"
+                            class="w-full py-2 ms-2 text-xs sm:text-sm font-medium text-gray-700">PROPIEDADES NUEVAS</label>
+                    </div>
+                </li>
+                <li class="w-full ">
+                    <div class="flex items-center ps-3">
+                        <input id="react-checkbox-list" type="checkbox" value=""
+                            class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500" />
+                        <label for="react-checkbox-list"
+                            class="w-full py-2 ms-2 text-xs sm:text-sm font-medium text-gray-700">EN VENTA</label>
+                    </div>
+                </li>
+                <li class="w-full">
+                    <div class="flex items-center ps-3">
+                        <input id="angular-checkbox-list" type="checkbox" value=""
+                            class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded focus:ring-green-500" />
+                        <label for="angular-checkbox-list"
+                            class="w-full py-2 ms-2 text-xs sm:text-sm font-medium text-gray-700">EN ARRIENDO</label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>

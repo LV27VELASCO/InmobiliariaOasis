@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.range-thumb-green::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem; /* Tamaño del thumb */
+    height: 1rem;
+    background-color: #22c55e; /* Verde Tailwind (green-500) */
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.range-thumb-green::-moz-range-thumb {
+    width: 1rem; /* Tamaño del thumb */
+    height: 1rem;
+    background-color: #22c55e; /* Verde Tailwind (green-500) */
+    cursor: pointer;
+    border-radius: 50%;
+}
